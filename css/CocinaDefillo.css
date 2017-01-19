@@ -1,0 +1,127 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 36px;
+  margin-bottom: 5vh;
+}
+
+.frontpic {
+  max-height: 800px;
+}
+
+.fronttext {
+  text-align: center;
+  color: green;
+}
+
+.fronth1 {
+  margin-top: 10vh;
+}
+
+.frontp {
+  margin-top: 15vh;
+}
+
+
+/* Recipe section*/
+
+
+.recipename {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5vh;
+  color: #144C7B;
+}
+
+.recipename1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5vh;
+  color: #EC3330;
+}
+
+.recipename2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5vh;
+  color: #455925;
+}
+
+.recipemethod {
+  margin-top: 5vh;
+}
+
+
+/* Products section*/
+
+
+.productimg {
+  max-height: 400px;
+
+}
+
+.productblackbean {
+  color: #455925;
+}
+
+.productgarbanzo {
+  color: #EC3330;
+}
+
+.productmayo {
+  color: #144C7B;
+}
+
+/*our Story*/
+
+
+
+@media ( max-width: 750px ) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
